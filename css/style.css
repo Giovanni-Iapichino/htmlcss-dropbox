@@ -32,9 +32,42 @@ ul {
   padding-right: 10px;
 }
 
-.button {
+button {
   background-color: #0062fe;
   color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+[class*="col"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-1-2 {
+  width: calc(100% / 2);
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+}
+
+.col-1-4 {
+  width: calc(100% / 4);
+}
+
+.col-1-5 {
+  width: calc(100% / 5);
+}
+
+.col-1-6 {
+  width: calc(100% / 6);
 }
 
 /* HEADER */
@@ -70,12 +103,26 @@ header {
   gap: 30px;
 }
 
-.button.button-small {
-  padding: 10px 20px;
+button .button-small {
   text-align: center;
   font-size: 16px;
+  padding: 20px 30px;
 }
 
 /* MAIN */
 
 /* FOOTER */
+footer {
+  background-color: black;
+}
+
+.hero {
+  background-color: #b4d0e7;
+}
+
+.big-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
