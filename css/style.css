@@ -32,24 +32,48 @@ ul {
   padding-right: 10px;
 }
 
+.button {
+  background-color: #0062fe;
+  color: white;
+}
+
 /* HEADER */
 header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  font-weight: 500;
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .list-links-left {
   text-align: center;
   display: flex;
-  gap: 20px;
+  gap: 30px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.list-links-right {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+
+.button.button-small {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
 }
 
 /* MAIN */
