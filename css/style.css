@@ -178,6 +178,7 @@ footer {
 
 .button-try {
   padding: 25px 0;
+  text-align: center;
 }
 
 .cancel {
@@ -201,6 +202,11 @@ footer {
 
 #hero .col-30 {
   padding-left: 0px;
+}
+
+#business {
+  border-top: 1px solid lightgray;
+  margin-top: 90px;
 }
 
 .mid-title {
@@ -250,18 +256,22 @@ footer {
   gap: 2px;
 }
 
-.business-plan {
-  padding: 0px 44px;
+.box-body {
+  padding: 0px 23px;
   display: flex;
   flex-direction: column;
 }
 
-.top-plan {
+.box-body-upper {
+  min-height: 200px;
+}
+
+.box-header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  padding: 20px;
+  padding: 5px;
   border-bottom: 1px solid lightgray;
 }
 
