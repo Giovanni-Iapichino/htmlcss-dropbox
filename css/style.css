@@ -163,7 +163,7 @@ footer {
 
 .big-title {
   font-size: 64px;
-  font-weight: bold;
+  font-weight: 800;
   color: black;
   text-align: left;
   padding-bottom: 25px;
@@ -181,12 +181,16 @@ footer {
   text-align: center;
 }
 
+.button-try-header {
+  padding: 25px 0;
+}
+
 .cancel {
   padding-bottom: 6px;
 }
 
 .arrow {
-  margin-top: 110px;
+  margin-top: 74px;
   font-size: 40px;
 }
 
